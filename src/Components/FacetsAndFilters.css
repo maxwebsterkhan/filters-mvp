@@ -1,0 +1,51 @@
+.facets {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.facet {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.facet-heading {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.facet-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.facet-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.facet-item:hover {
+  background-color: #f0f0f0;
+}
+
+.facet-item.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.facet-label {
+  font-weight: bold;
+}
+
+.facet-count {
+  color: #555;
+}
